@@ -1,0 +1,57 @@
+/* 公共css样式 */
+html,body{
+    height: 100%;
+    /* background: #cccccc; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #000;
+}
+.head .logo{
+    text-decoration: none;
+    font-size: 20px;
+}
+.head .right{
+    display: flex;
+    align-items: center;
+}
+.main{
+    flex: 1;
+    display: flex;
+    background: #f1f1f1;
+}
+.menu{
+    border-right: 1px solid #000;
+    text-align: center;
+    width: 200px;
+    height: 100%;
+    overflow-y:auto;
+}
+.menu li{
+    height: 50px;
+    line-height: 50px;
+}
+.main_right{
+    /* width: 100%; */
+    flex: 1;
+}
+
+.footer{ 
+    height: 100px;
+    border-top: 1px solid #000;
+}
+
+
+/* 修改bootstrap的默认样式 */
+.pagination{
+    float: right;
+    margin-right: 20px;
+}
